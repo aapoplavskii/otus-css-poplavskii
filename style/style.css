@@ -45,3 +45,27 @@ html{
     font-size: 16px;
 }
 
+#big_main_title{
+    font-family: Butler, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 92px;   
+}
+
+li{
+    font-family: Butler, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 34px;   
+}
+
+a{
+    font-family: Roboto, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+a span{
+    font-family: Roboto, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
