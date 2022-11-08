@@ -3,8 +3,8 @@
     line-height: 1.2;
 }
 
-html {     
-    font-family: Butler, Helvetica, sans-serif;
+body {     
+    font-family: Butler, sans-serif;
 }
 
 .nav {
@@ -18,56 +18,56 @@ html {
 }
 
 .title {
-    font-family: Roboto, Helvetica, sans-serif;
+    font-family: Roboto, sans-serif;
     font-weight: 700;
     font-size: 18px;
 }
 
 .text {
-    font-family: Roboto, Helvetica, sans-serif;
+    font-family: Roboto, sans-serif;
     font-weight: 500;
     font-size: 18px;   
 }
 
 .quote {
-    font-family: Butler, Helvetica, sans-serif;
+    font-family: Butler, sans-serif;
     font-weight: 250;
     font-size: 32px;
 
 }
 
 .label {
-    font-family: Roboto, Helvetica, sans-serif;
+    font-family: Roboto, sans-serif;
     font-weight: 700;
     font-size: 16px;
 }
 
 .thin_label {
-    font-family: Roboto, Helvetica, sans-serif;
+    font-family: Roboto, sans-serif;
     font-weight: 400;
     font-size: 16px;
 }
 
 #big_main_title {
-    font-family: Butler, Helvetica, sans-serif;
+    font-family: Butler, sans-serif;
     font-weight: 300;
     font-size: 92px;   
 }
 
 li {
-    font-family: Butler, Helvetica, sans-serif;
+    font-family: Butler, sans-serif;
     font-weight: 300;
     font-size: 34px;   
 }
 
 a {
-    font-family: Roboto, Helvetica, sans-serif;
+    font-family: Roboto, sans-serif;
     font-weight: 700;
     font-size: 16px;
 }
 
 a span {
-    font-family: Roboto, Helvetica, sans-serif;
+    font-family: Roboto, sans-serif;
     font-weight: 400;
     font-size: 16px;
 }
