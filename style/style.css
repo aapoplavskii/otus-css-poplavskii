@@ -1,74 +1,63 @@
 :root {
-    font-size: 1rem;
+    font-size: 16px;
     line-height: 1.2;
 }
 
 body {     
-    font-family: Butler, sans-serif;
+    font-family: Butler, Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    font-size: 1rem;
 }
 
 .nav {
-    font-size: 12px;    
+    font-size: 0.7rem;    
 }
 
 .main_title {
-    font-family: Butler, sans-serif;
-    font-weight: 300;
-    font-size: 87px;   
+   font-size: 5.5rem;   
 }
 
 .title {
-    font-family: Roboto, sans-serif;
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 1.1rem;
 }
 
 .text {
-    font-family: Roboto, sans-serif;
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 500;
-    font-size: 18px;   
+    font-size: 1.1rem;   
 }
 
 .quote {
-    font-family: Butler, sans-serif;
-    font-weight: 250;
-    font-size: 32px;
-
+    font-weight: 200;
+    font-size: 2rem;
 }
 
 .label {
-    font-family: Roboto, sans-serif;
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 700;
-    font-size: 16px;
 }
 
 .thin_label {
-    font-family: Roboto, sans-serif;
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 400;
-    font-size: 16px;
 }
 
 #big_main_title {
-    font-family: Butler, sans-serif;
-    font-weight: 300;
-    font-size: 92px;   
+    font-size: 5.8rem;   
 }
 
 li {
-    font-family: Butler, sans-serif;
-    font-weight: 300;
-    font-size: 34px;   
+    font-size: 2.2rem;   
 }
 
 a {
-    font-family: Roboto, sans-serif;
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 700;
-    font-size: 16px;
 }
 
 a span {
-    font-family: Roboto, sans-serif;
     font-weight: 400;
-    font-size: 16px;
 }
 
