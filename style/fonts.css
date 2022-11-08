@@ -10,11 +10,6 @@
 }
 @font-face {
     font-family: "Butler";
-    src: url("../fonts/Butler_Regular.woff");
-    font-weight: 400;
-}
-@font-face {
-    font-family: "Butler";
     src: url("../fonts/Butler_Medium.woff");
     font-weight: 500;
 }
