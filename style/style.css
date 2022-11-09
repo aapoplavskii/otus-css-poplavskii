@@ -35,12 +35,12 @@ body {
     font-weight: 700;
 }
 
-.thin_label {
+.text_caption {
     font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 400;
 }
 
-#big_main_title {
+#list_title {
     font-size: 5.8rem;   
 }
 
