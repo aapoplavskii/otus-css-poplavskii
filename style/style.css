@@ -1,0 +1,59 @@
+:root {
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+body {     
+    font-family: Butler, Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.main_title {
+   font-size: 5.5rem;   
+}
+
+.title {
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.text {
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;   
+}
+
+.quote {
+    font-weight: 200;
+    font-size: 2rem;
+}
+
+.label {
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+}
+
+.text_caption {
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+}
+
+#list_title {
+    font-size: 5.8rem;   
+}
+
+li {
+    font-size: 2.2rem;   
+}
+
+a {
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+}
+
+a span {
+    font-weight: 400;
+}
+
