@@ -1,12 +1,25 @@
-:root {
+* {
     font-size: 16px;
     line-height: 1.2;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {     
     font-family: Butler, Georgia, 'Times New Roman', Times, serif;
     font-weight: 300;
-    font-size: 1rem;
+    font-size: 1rem;   
+    border: 1px solid #000;         
+}
+
+main {
+    max-width: 1440px;    
+}
+
+.nav {
+    text-align: center;
+    padding: 55px 135px 65px 135px;
 }
 
 .main_title {
@@ -59,19 +72,33 @@ a span {
 }
 
 .section_hero {
+    width: 100%;
+    height: 100vh;
+    /* background-color: aqua; */
     position: relative;
+    
 }
 
+.hero_image {
+    background-image: url(../img/Modern_Web_Studio.jpg);
+    margin-left: 187px;
+    margin-right: 188px;
+    margin-bottom: 135px;
+    height: 100%;
+
+}
+
+
 .hero_title_block {
-    position: absolute;    
-    background-color: #FFFFFF;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    background-color: white;
+    padding: 130px 69px 130px 70px;
+    
 }
 
-.hero_image {
-    position: absolute;
-}
+
 
