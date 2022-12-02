@@ -6,17 +6,30 @@
 body {     
     font-family: Butler, Georgia, 'Times New Roman', Times, serif;
     font-weight: 300;
-    font-size: 1rem;
+    font-size: 1rem;   
+    color: black;
+    background: white;
 }
 
-.main_title {
-   font-size: 5.5rem;   
+main {
+    max-width: 90rem;
+    margin: 0 auto;   
 }
 
-.title {
-    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 700;
-    font-size: 1.1rem;
+.invisible {
+    display: none;
+}
+
+.nav {
+    text-align: center;
+    padding: 4rem 8.5rem;
+}
+
+.section {
+    height: 100vh;
+    min-height: 600px;
+    max-height: 1200px;
+    position: relative;  
 }
 
 .text {
@@ -56,4 +69,40 @@ a {
 a span {
     font-weight: 400;
 }
+
+#Hero img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.hero_title_block {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: white;    
+    font-size: 5.5rem;
+    padding: 1.5em 1em;
+    white-space: nowrap;
+}
+
+.main_title {
+    font-size: 1em;
+ }
+
+.title {
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 0.2em;
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+
+
 
