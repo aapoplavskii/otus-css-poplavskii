@@ -29,13 +29,27 @@ main {
     height: 100vh;
     min-height: 600px;
     max-height: 1200px;
-    position: relative;  
+    position: relative; 
+    background-color: blue; 
 }
 
 .text {
+    list-style-type: none;    
+}
+
+.text-item {
     font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 500;
-    font-size: 1.1rem;   
+    font-size: 1.1rem;
+    display: inline-block;
+}
+
+.text-item::after {
+    content: " /";
+}
+
+.text-item:last-child::after {
+    content: "";
 }
 
 .quote {
@@ -103,6 +117,17 @@ a span {
     width: 100%;
     left: 0;
 }
+
+.box_title {
+    font-size: 5.5rem;
+ }
+
+.section > img, div {
+    width: calc(100% / 2 - 1% * 2);
+    margin: 1%;    
+    float: left;
+}
+
 
 
 
