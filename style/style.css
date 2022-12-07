@@ -120,30 +120,29 @@ a span {
 
 .box {
     width: 100%;
-    margin: 0;
     background-color: red;
     min-height: 100vh;
-    position: absolute;
 }
 
 .box_title {
     font-size: 5.5rem;
  }
 
-.box > img, div {
-    width: calc(100% / 2 - 1% * 2);
-    margin: 1%;    
-    float: left;
-}
-
 .box img {
     height: auto;
     min-height: 100%;
     background-color: blueviolet;
+    position: relative;
+    left: 8.3rem;
+    display: inline-block;
+    width: 49%;
 }
 
 .box div {
-    width: 48%;
+    position: relative;
+    width: 41%;
+    left: 8.3rem;
+    display: inline-block;
     background-color: aliceblue;
 }
 
