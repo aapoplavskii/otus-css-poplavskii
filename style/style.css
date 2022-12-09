@@ -128,9 +128,9 @@ a span {
     font-size: 5.5rem;
  }
 
-.box img {
-    height: auto;
-    min-height: 100%;
+#Katya_Mills img {
+    max-width: 100%;
+    max-height: 100%;
     background-color: blueviolet;
     position: relative;
     left: 8.3rem;
@@ -138,7 +138,7 @@ a span {
     width: 49%;
 }
 
-.box div {
+#Katya_Mills div {
     position: relative;
     width: 30%;
     left: 8.3rem;
@@ -157,6 +157,8 @@ a span {
     font-size: 1.1rem;
     position: absolute;
     transform: rotate(-90deg);
+    bottom: 0;
+    right: 0;
 }
 
 
