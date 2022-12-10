@@ -30,18 +30,13 @@ main {
     min-height: 600px;
     max-height: 1200px;
     position: relative; 
-    background-color: blue; 
+    /* background-color: blue;  */
 }
 
 .text {
-    list-style-type: none;    
-}
-
-.text-item {
     font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 500;
-    font-size: 1.1rem;
-    display: inline-block;
+    font-size: 1.1rem;   
 }
 
 .text-item::after {
@@ -118,50 +113,62 @@ a span {
     left: 0;
 }
 
-.box {
-    width: 100%;
-    background-color: red;
-    min-height: 100vh;
-}
-
 .box_title {
     font-size: 5.5rem;
+    width: 85%;
  }
 
-#Katya_Mills img {
-    max-width: 100%;
-    max-height: 100%;
-    background-color: blueviolet;
-    position: relative;
-    left: 8.3rem;
-    display: inline-block;
-    width: 49%;
-}
-
-#Katya_Mills div {
-    position: relative;
-    width: 30%;
-    left: 8.3rem;
-    display: inline-block;
-    background-color: aliceblue;
-}
-
-.quote::before {
-    content: "-";
-    display: block;
-}
-
-.subtitle {
+ .subtitle {
     font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 700;
     font-size: 1.1rem;
     position: absolute;
+    z-index: 1;
 }
 
 .subtitle_biography {    
     transform: rotate(-90deg);
     bottom: 0;
     right: 0;
+}
+
+.col_left, .col_right {
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 100%;
+    /* background-color: blueviolet; */
+}
+
+.col_right {
+    /* background-color: cadetblue; */
+}
+
+#Biography img {
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 554px;
+    max-height: 840px;
+}
+
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.box_right {
+    padding: 0 20%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.line {
+    height: 3px;
+    width: 50px;
 }
 
 
