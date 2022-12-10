@@ -151,11 +151,14 @@ a span {
     display: block;
 }
 
-.title-section {
+.subtitle {
     font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 700;
     font-size: 1.1rem;
     position: absolute;
+}
+
+.subtitle_biography {    
     transform: rotate(-90deg);
     bottom: 0;
     right: 0;
