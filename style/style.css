@@ -107,8 +107,9 @@ a span {
 .title {
     font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 700;
-    font-size: 0.2em;
-    position: absolute;    
+    font-size: 1.2rem;
+    position: absolute;  
+    z-index: 1;  
 }
 
 .title_hero {
@@ -129,9 +130,9 @@ a span {
     z-index: 1;
 }
 
-.subtitle_biography {    
+.title_biography {    
     transform: rotate(-90deg);
-    bottom: 0;
+    bottom: 5%;
     right: 0;
 }
 
@@ -170,8 +171,11 @@ a span {
 }
 
 .line {
-    height: 3px;
+    height: 2px;
     width: 50px;
+    background-color: black;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
 }
 
 
