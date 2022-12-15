@@ -29,13 +29,22 @@ main {
     height: 100vh;
     min-height: 600px;
     max-height: 1200px;
-    position: relative;  
+    position: relative; 
+    /* background-color: blue;  */
 }
 
 .text {
     font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 500;
     font-size: 1.1rem;   
+}
+
+.text-item::after {
+    content: " /";
+}
+
+.text-item:last-child::after {
+    content: "";
 }
 
 .quote {
@@ -98,14 +107,78 @@ a span {
 .title {
     font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 700;
-    font-size: 0.2em;
-    position: absolute;    
+    font-size: 1.1rem;
+    position: absolute;  
+    z-index: 1;  
 }
 
 .title_hero {
     width: 100%;
     left: 0;
 }
+
+.box_title {
+    font-size: 5.5rem;
+    width: 85%;
+ }
+
+ .subtitle {
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+    position: absolute;
+    z-index: 1;
+}
+
+.title_biography {    
+    transform: rotate(-90deg);
+    bottom: 5%;
+    right: 0;
+}
+
+.col_left, .col_right {
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 100%;
+    /* background-color: blueviolet; */
+}
+
+.col_right {
+    /* background-color: cadetblue; */
+}
+
+#Biography img {
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 554px;
+    max-height: 840px;
+}
+
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.box_right {
+    padding: 0 20%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.line {
+    height: 2px;
+    width: 50px;
+    background-color: black;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+
 
 
 
