@@ -172,6 +172,11 @@ a span {
     margin-bottom: 2rem;
 }
 
+.container {
+    display: flex;
+    height: 100vh;
+}
+
 
 
 
