@@ -172,10 +172,32 @@ a span {
     margin-bottom: 2rem;
 }
 
-.container {
-    display: flex;
-    height: 100vh;
+.title_designers {
+    transform: rotate(-90deg);
+    top: 3%;
+    right: 26%;
 }
+
+.container {
+    display: flex;    
+    /* background-color: blue; */
+    width: 100%;    
+}
+
+.container_right {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 25px;
+    /* background-color: red; */
+}
+
+.container_left {
+    /* background-color: yellow; */
+    align-self: center;    
+}
+
+
 
 
 
