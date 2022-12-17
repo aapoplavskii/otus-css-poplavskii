@@ -194,11 +194,22 @@ a span {
 
 .container_left {
     /* background-color: yellow; */
-    align-self: center;    
+    align-self: center; 
 }
 
+.box_label_right {
+    margin-top: 8%;
+    /* background-color: brown; */
+}
 
-
+.box_label_left {
+    
+    width: fit-content;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 4%;
+    /* background-color: brown; */
+}
 
 
 
