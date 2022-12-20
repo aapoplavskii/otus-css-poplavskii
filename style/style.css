@@ -179,27 +179,27 @@ a span {
 }
 
 .container {
-    display: flex;    
-    /* background-color: blue; */
-    width: 100%;    
+    display: flex;  
+    flex-wrap: wrap;
+    align-items: flex-end;
+    /* background-color: blue;        */
 }
 
-.container_right {
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: flex-end;
-    gap: 25px;
-    /* background-color: red; */
+.container_right{      
+    gap: 80px;
 }
 
 .container_left {
-    /* background-color: yellow; */
-    align-self: center; 
+    flex-grow: 1;
 }
 
+/* 
 .box_label_right {
+    
     margin-top: 8%;
-    /* background-color: brown; */
+    width: 50%;
+    height: 100vh;
+    background-color: brown;
 }
 
 .box_label_left {    
@@ -207,8 +207,8 @@ a span {
     position: relative;
     margin: 0 auto;
     margin-top: 4%;
-    /* background-color: brown; */
-}
+    background-color: brown;
+} */
 
 
 
