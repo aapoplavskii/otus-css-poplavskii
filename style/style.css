@@ -174,10 +174,9 @@ a span {
 }
 
 .title_designers {
-    transform: rotate(-90deg), translateX(-50%);
-    top: 50%;
-    right: 33%;
-
+    transform: rotate(-90deg);
+    top: 3%;
+    right: 26%;
 }
 
 .container {
@@ -185,7 +184,7 @@ a span {
     flex-wrap: nowrap;
     align-items: baseline;
     overflow-x: auto;
-    background-color: blue;   
+    /* background-color: blue;    */
     gap: 24px;    
 }
 
