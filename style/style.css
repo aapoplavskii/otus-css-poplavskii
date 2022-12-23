@@ -54,6 +54,7 @@ main {
 .label {
     font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 700;
+    text-transform: uppercase;
 }
 
 .text_caption {
@@ -173,42 +174,20 @@ a span {
 }
 
 .title_designers {
-    transform: rotate(-90deg);
-    top: 3%;
-    right: 26%;
+    transform: rotate(-90deg), translateX(-50%);
+    top: 50%;
+    right: 33%;
+
 }
 
 .container {
     display: flex;  
-    flex-wrap: wrap;
-    align-items: flex-end;
-    /* background-color: blue;        */
+    flex-wrap: nowrap;
+    align-items: baseline;
+    background-color: blue;   
+    gap: 24px;    
 }
 
-.container_right{      
-    gap: 80px;   
-    /* background-color: rgb(223, 18, 18); */
+.container_main {    
+    background-color: blanchedalmond;
 }
-
-.container_left {
-    flex-grow: 1;
-    /* background-color: blanchedalmond; */
-}
-
-.box_label_right {    
-    width: 50%;
-    margin: 9% 0;
-    width: fit-content;
-    /* background-color: brown; */
-}
-
-.box_label_left {    
-    width: fit-content;
-    position: relative;
-    margin: 4% auto;
-    /* background-color: brown; */
-}
-
-
-
-
