@@ -184,10 +184,38 @@ a span {
     display: flex;  
     flex-wrap: nowrap;
     align-items: baseline;
+    overflow-x: auto;
     background-color: blue;   
     gap: 24px;    
 }
 
-.container_main {    
-    background-color: blanchedalmond;
+.designers img {
+    width: 309px;
+    height: 442px;
+    object-fit: cover;
+}
+
+.designers_main img {
+    width: 609px;
+    height: 538px;
+    object-fit: cover;
+}
+
+.designers .box_label {
+    display: inline-block;
+    text-align: left;
+    margin-top: 24px;
+}
+
+.designers_main {
+    text-align: center;
+    margin: 0 87px;
+}
+
+.designers_main:first-child {
+    margin-left: 0;
+}
+
+.designers_main:last-child {
+    margin-right: 0;
 }
