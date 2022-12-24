@@ -188,14 +188,19 @@ a span {
     gap: 24px;    
 }
 
+.designers {
+    /* background-color: aquamarine;     */
+    flex-basis: 309px;
+}
+
 .designers img {
-    width: 309px;
+    width: 100%;
     height: 442px;
     object-fit: cover;
 }
 
 .designers_main img {
-    width: 609px;
+    width: 100%;
     height: 538px;
     object-fit: cover;
 }
@@ -204,11 +209,14 @@ a span {
     display: inline-block;
     text-align: left;
     margin-top: 24px;
+    /* background-color: aquamarine; */
 }
 
 .designers_main {
     text-align: center;
     margin: 0 87px;
+    flex-basis: 609px;
+    /* background-color: blue; */
 }
 
 .designers_main:first-child {
