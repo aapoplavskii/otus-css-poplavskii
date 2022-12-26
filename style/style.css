@@ -191,6 +191,7 @@ a span {
 .designers {
     /* background-color: aquamarine;     */
     flex-basis: 309px;
+    flex-shrink: 0;
 }
 
 .designers img {
@@ -215,7 +216,8 @@ a span {
 .designers_main {
     text-align: center;
     margin: 0 87px;
-    flex-basis: 609px;
+    flex-basis: 609px;    
+    flex-shrink: 0;
     /* background-color: blue; */
 }
 
