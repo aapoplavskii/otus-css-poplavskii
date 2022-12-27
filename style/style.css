@@ -30,6 +30,7 @@ main {
     min-height: 600px;
     max-height: 1200px;
     position: relative; 
+    /* background-color: blueviolet; */
 }
 
 .text {
@@ -175,7 +176,7 @@ a span {
 
 .title_designers {
     transform: rotate(-90deg);
-    top: 3%;
+    top: 19%;
     right: 26%;
 }
 
@@ -184,14 +185,17 @@ a span {
     flex-wrap: nowrap;
     align-items: baseline;
     overflow-x: auto;
-    /* background-color: blue;    */
-    gap: 24px;    
+    /* background-color: yellow;    */
+    gap: 24px;
+    position: absolute;              
+    top: 50%;                        
+    transform: translate(0, -50%)
 }
 
 .designers {
-    /* background-color: aquamarine;     */
+    /* background-color: red;     */
     flex-basis: 309px;
-    flex-shrink: 0;
+    flex-shrink: 0;  
 }
 
 .designers img {
