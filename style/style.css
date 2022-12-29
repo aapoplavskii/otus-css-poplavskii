@@ -175,9 +175,9 @@ a span {
 }
 
 .title_designers {
-    transform: rotate(-90deg);
-    top: 19%;
-    right: 26%;
+    top: 50%;
+    left: 50%;
+    transform: translate(329%,-1480%) rotate(-90deg);
 }
 
 .container {
@@ -186,7 +186,10 @@ a span {
     align-items: baseline;
     overflow-x: auto;
     /* background-color: yellow;    */
-    gap: 24px;
+    gap: 24px; 
+    position: absolute; 
+    top: 50%;
+    transform: translateY(-55%); 
 }
 
 #Designers {
@@ -199,6 +202,7 @@ a span {
     /* background-color: red;     */
     flex-basis: 309px;
     flex-shrink: 0;  
+    align-items: baseline;
 }
 
 .designers img {
