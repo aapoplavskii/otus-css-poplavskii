@@ -54,7 +54,10 @@ main {
 
 .label {
     font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 700;
+    font-weight: 700;    
+}
+
+.label-upper {
     text-transform: uppercase;
 }
 
@@ -176,8 +179,8 @@ a span {
 
 .title_designers {
     top: 50%;
-    left: 50%;
-    transform: translate(329%,-1480%) rotate(-90deg);
+    left: 982px;
+    transform: translateY(-313px) rotate(-90deg);
 }
 
 .container {
@@ -218,7 +221,7 @@ a span {
 .designers .box_label {
     display: inline-block;
     text-align: left;
-    margin-top: 24px;
+    margin-top: 20px;
     /* background-color: aquamarine; */
 }
 
