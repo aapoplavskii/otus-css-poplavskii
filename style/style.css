@@ -30,7 +30,7 @@ main {
     min-height: 600px;
     max-height: 1200px;
     position: relative; 
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 
 .text {
@@ -188,7 +188,7 @@ a span {
     flex-wrap: nowrap;
     align-items: baseline;
     overflow-x: auto;
-    background-color: yellow;   
+    /* background-color: yellow;    */
     gap: 24px;
     transform: translateY(-5%); 
 }
