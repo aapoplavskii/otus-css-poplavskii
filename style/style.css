@@ -254,13 +254,15 @@ a span {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
     justify-self: start;
+    align-self: center;
 }
 
 .grid-item:nth-child(4) {
     grid-column: 1 / 2;
     grid-row: 2 / 3; 
     transform: rotate(-90deg);
-    align-self: center;    
+    align-self: center;   
+    align-content: end; 
 }
 
 .grid-item:nth-child(3) {
@@ -281,14 +283,19 @@ a span {
     grid-column: 2 / 3;
     grid-row: 2 / -1;
     justify-self: center;
+    align-self: start;
 }
 
 .grid-item:nth-child(6) {
     grid-column: 3 / 4;
     grid-row: 2 / 3;
+    justify-self: center;
+    width: 29%;
+    text-align: center;
 }
 
 .grid-item:nth-child(7) {
     grid-column: 3 / 4;
     grid-row: 3 / -1;
+    align-self: start;
 }
