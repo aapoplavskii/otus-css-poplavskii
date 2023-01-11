@@ -244,13 +244,34 @@ a span {
 .grid {
     background-color: brown;
     display: grid;
-    grid-template-columns: 1fr 4fr 5fr;
-    grid-template-rows: 10% repeat(3, 1fr);
-    align-items: end;
-    justify-items: center;
+    grid-template-columns: 12% 38% 50%;
+    grid-template-rows: 16% 84%;
+    /* align-items: end;
+    justify-items: center; */
 }
 
-.grid-item:nth-child(1) {
+.grid h2 {
+    background-color: green;
+    grid-column: 2 / -1;
+    position: static;
+}
+
+.grid-links {
+    grid-column: 1 / 2;
+    background-color: red;
+}
+
+.grid-img {
+    background-color: blue;
+
+}
+
+.grid-quote {
+    background-color: yellow;
+}
+
+
+/* .grid-item:nth-child(1) {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
     justify-self: start;
@@ -298,4 +319,4 @@ a span {
     grid-column: 3 / 4;
     grid-row: 3 / -1;
     align-self: start;
-}
+} */
