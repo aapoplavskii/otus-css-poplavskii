@@ -244,26 +244,29 @@ a span {
 .grid {
     background-color: brown;
     display: grid;
-    grid-template-columns: 12% 38% 50%;
-    grid-template-rows: 16% 84%;
-    /* align-items: end;
-    justify-items: center; */
+    grid-template-columns: 12.2% 37.8% 50%;
+    grid-template-rows: 16% 84%;   
 }
 
 .grid h2 {
     background-color: green;
     grid-column: 2 / -1;
     position: static;
+    align-self: center;
+    margin-top: 2em;
 }
 
 .grid-links {
     grid-column: 1 / 2;
     background-color: red;
+    display: flex;
+    flex-direction: column;
+    /* writing-mode: vertical-lr; */
 }
 
 .grid-img {
     background-color: blue;
-
+    height: 100%;
 }
 
 .grid-quote {
