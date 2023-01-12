@@ -50,6 +50,13 @@ main {
 .quote {
     font-weight: 200;
     font-size: 2rem;
+    width: 6.5em;
+    margin-left: 8.1em;
+    margin-bottom: 0.8em;
+}
+
+@media (max-height: 800px) {
+    .quote {width: 100%; margin-left: 0;}
 }
 
 .label {
@@ -276,8 +283,8 @@ a span {
 
 .grid-quote {
     background-color: yellow;
+    text-align: center;
 }
-
 
 /* .grid-item:nth-child(1) {
     grid-column: 2 / 3;
