@@ -249,7 +249,7 @@ a span {
 }
 
 .grid h2 {
-    background-color: green;
+    /* background-color: green; */
     grid-column: 2 / -1;
     position: static;
     align-self: center;
@@ -258,14 +258,19 @@ a span {
 
 .grid-links {
     grid-column: 1 / 2;
-    background-color: red;
+    /* background-color: red; */
     display: flex;
-    flex-direction: column;
-    /* writing-mode: vertical-lr; */
+    flex-direction: column-reverse;
+    justify-content: space-around;
+}
+
+.grid-links_rotate {
+    transform: rotate(-90deg);
+    /* writing-mode: vertical-rl; */
 }
 
 .grid-img {
-    background-color: blue;
+    /* background-color: blue; */
     height: 100%;
 }
 
