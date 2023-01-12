@@ -249,7 +249,7 @@ a span {
 }
 
 .grid {
-    background-color: brown;
+    /* background-color: brown; */
     display: grid;
     grid-template-columns: 12.2% 37.8% 50%;
     grid-template-rows: 16% 84%;   
@@ -282,7 +282,7 @@ a span {
 }
 
 .grid-quote {
-    background-color: yellow;
+    /* background-color: yellow; */
     text-align: center;
 }
 
