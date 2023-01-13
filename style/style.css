@@ -269,6 +269,7 @@ a span {
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-around;
+    max-height: 757px;
 }
 
 .grid-links-item {
@@ -281,9 +282,14 @@ a span {
 .grid-img {
     /* background-color: blue; */
     height: 100%;
+    width: 100%;
+    max-width: 515px;
+    max-height: 757px;
+    object-fit: cover;
 }
 
 .grid-quote {
     /* background-color: yellow; */
     text-align: center;
+    max-height: 757px;
 }
