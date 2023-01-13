@@ -272,7 +272,9 @@ a span {
 }
 
 .grid-links-item {
-    transform: translate(2em, 2em) rotate(-90deg);
+    transform: translateX(17%) rotate(-90deg);
+    text-decoration: none;
+    color: black;
     /* writing-mode: vertical-rl; */
 }
 
