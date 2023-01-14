@@ -55,7 +55,7 @@ main {
 }
 
 @media (max-height: 800px) {
-    .quote {width: 100%; margin-left: 0;}
+    .quote {width: 100%;}
 }
 
 .label {
