@@ -51,7 +51,6 @@ main {
     font-weight: 200;
     font-size: 2rem;
     width: 6.5em;
-    margin-left: 8.1em;
     margin-bottom: 0.8em;
 }
 
@@ -292,4 +291,5 @@ a span {
     /* background-color: yellow; */
     text-align: center;
     max-height: 757px;
+    justify-self: center;
 }
