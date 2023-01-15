@@ -298,6 +298,10 @@ a span {
     height: 100vh;
     background-color: blue;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .parent-block div, img {
@@ -310,4 +314,10 @@ a span {
     background-color: aqua;
     overflow-x: auto;
     vertical-align: middle;
+}
+
+.title_strong-points {
+    top: 50%;
+    left: 50%;
+    transform: translate(-290px, -295px) rotate(-90deg);   
 }
