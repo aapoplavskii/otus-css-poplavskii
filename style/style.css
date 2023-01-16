@@ -295,7 +295,7 @@ a span {
 }
 
 .parent-block {
-    background-color: aqua;
+    /* background-color: aqua; */
     height: 100vh;
     display: flex;
     align-items: center;
@@ -315,7 +315,7 @@ a span {
     flex-wrap: nowrap;
     align-items: flex-end;
     overflow-x: auto;   
-    background-color: blue;
+    /* background-color: blue; */
     gap: 20px;
 }
 
