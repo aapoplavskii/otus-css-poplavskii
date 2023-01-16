@@ -297,7 +297,11 @@ a span {
 .parent-block {
     /* background-color: aqua; */
     height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
@@ -307,12 +311,17 @@ a span {
 }
 
 .block-item {
-    /* display: inline-block; */
+   /* display: inline-block; */
     /* background-color: aqua; */
     /* overflow-x: auto; */
     /* vertical-align: middle; */
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;  
+    -ms-flex-wrap: nowrap;  
     flex-wrap: nowrap;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
     align-items: flex-end;
     overflow-x: auto;   
     /* background-color: blue; */
