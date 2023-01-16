@@ -295,26 +295,30 @@ a span {
 }
 
 .parent-block {
+    background-color: aqua;
     height: 100vh;
-    background-color: blue;
-    text-align: center;
     display: flex;
     align-items: center;
-    justify-content: center;
-    
 }
 
 .parent-block div, img {
-    display: inline-block;
-    background-color: brown;
+    /* display: inline-block; */
+    /* background-color: brown; */
 }
 
 .block-item {
-    display: inline-block;
-    background-color: aqua;
-    overflow-x: auto;
-    vertical-align: middle;
+    /* display: inline-block; */
+    /* background-color: aqua; */
+    /* overflow-x: auto; */
+    /* vertical-align: middle; */
+    display: flex;  
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    overflow-x: auto;   
+    background-color: blue;
+    gap: 20px;
 }
+
 
 .title_strong-points {
     top: 50%;
