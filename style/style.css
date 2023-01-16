@@ -305,16 +305,7 @@ a span {
     align-items: center;
 }
 
-.parent-block div, img {
-    /* display: inline-block; */
-    /* background-color: brown; */
-}
-
 .block-item {
-   /* display: inline-block; */
-    /* background-color: aqua; */
-    /* overflow-x: auto; */
-    /* vertical-align: middle; */
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;  
@@ -328,6 +319,34 @@ a span {
     gap: 20px;
 }
 
+@supports not (display: flex) {
+    .parent-block {
+        /* background-color: yellow; */
+        height: 100vh;
+        text-align: center;   
+        overflow-y: hidden;
+        white-space: nowrap;
+    }
+    .parent-block:before {
+        display:inline-block;
+        content: '';
+        height:100%;        
+        /* background-color: red; */
+        vertical-align: middle;
+    }  
+
+    .block-item {
+        display: inline-block;
+        /* background-color: aqua;   */
+        vertical-align: middle;  
+        
+    }
+
+    .parent-block div, img {
+        display: inline-block;
+        /* background-color: brown; */
+    }
+}
 
 .title_strong-points {
     top: 50%;
