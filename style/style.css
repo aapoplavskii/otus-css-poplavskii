@@ -300,6 +300,11 @@ a span {
     justify-self: center;
 }
 
+#StrongPoints {
+    min-height: 700px;
+    /* background-color: aqua; */
+}
+
 .parent-block {
     /* background-color: yellow;     */
     white-space: nowrap;
