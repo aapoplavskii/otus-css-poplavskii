@@ -295,56 +295,56 @@ a span {
 }
 
 .parent-block {
-    /* background-color: aqua; */
+    /* background-color: yellow; */
     height: 100vh;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+    text-align: center;   
+    overflow-y: hidden;
+    white-space: nowrap;
 }
+.parent-block:before {
+    display:inline-block;
+    content: '';
+    height:100%;        
+    /* background-color: red; */
+    vertical-align: middle;
+}  
 
 .block-item {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;  
-    -ms-flex-wrap: nowrap;  
-    flex-wrap: nowrap;
-    -webkit-box-align: end;
-    -ms-flex-align: end;
-    align-items: flex-end;
-    overflow-x: auto;   
-    /* background-color: blue; */
-    gap: 20px;
+    display: inline-block;
+    /* background-color: aqua;   */
+    vertical-align: middle;  
+    
 }
 
-@supports not (display: flex) {
+.parent-block div, img {
+    display: inline-block;
+    /* background-color: brown; */
+}
+
+@supports (display: flex) {
     .parent-block {
-        /* background-color: yellow; */
+        /* background-color: aqua; */
         height: 100vh;
-        text-align: center;   
-        overflow-y: hidden;
-        white-space: nowrap;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
     }
-    .parent-block:before {
-        display:inline-block;
-        content: '';
-        height:100%;        
-        /* background-color: red; */
-        vertical-align: middle;
-    }  
-
+    
     .block-item {
-        display: inline-block;
-        /* background-color: aqua;   */
-        vertical-align: middle;  
-        
-    }
-
-    .parent-block div, img {
-        display: inline-block;
-        /* background-color: brown; */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;  
+        -ms-flex-wrap: nowrap;  
+        flex-wrap: nowrap;
+        -webkit-box-align: end;
+        -ms-flex-align: end;
+        align-items: flex-end;
+        overflow-x: auto;   
+        /* background-color: blue; */
+        gap: 20px;
     }
 }
 
