@@ -320,6 +320,12 @@ a span {
     /* background-color: brown; */
 }
 
+.parent-block ul {
+    width: fit-content;
+    margin-left: 25%;
+    /* background-color: aqua; */
+}
+
 @supports (display: flex) {
     .parent-block {
         /* background-color: aqua; */
