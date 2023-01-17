@@ -30,6 +30,8 @@ main {
     min-height: 600px;
     max-height: 1200px;
     position: relative; 
+    overflow-y: hidden;
+    overflow-x: auto; 
     /* background-color: blueviolet; */
 }
 
@@ -74,6 +76,10 @@ main {
 
 #list_title {
     font-size: 5.8rem;   
+    position: absolute;
+    top: -1.5em;
+    left: 0;
+    right: 0;
 }
 
 li {
@@ -292,4 +298,92 @@ a span {
     text-align: center;
     max-height: 757px;
     justify-self: center;
+}
+
+#StrongPoints {
+    min-height: 700px;
+    /* background-color: aqua; */
+}
+
+.parent-block {
+    /* background-color: yellow;     */
+    white-space: nowrap;
+}
+.parent-block::before {
+    display:inline-block;
+    content: '';
+    height:100%;        
+    /* background-color: red; */
+    vertical-align: middle;
+}  
+
+.block-items {
+    display: inline-block;
+    /* background-color: aqua;   */
+    vertical-align: middle;  
+    padding-top: 171px;
+}
+
+.strengths-item {
+    display: inline-block;
+    /* background-color: brown; */
+    margin-right: 28px;
+    vertical-align: middle;
+    height: 525px;
+    flex-shrink: 0;
+}
+
+.strengths-item:last-child {
+    margin-right: 0;
+}
+
+.strengths-item img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.strengths-item_list {
+    text-align: left;
+    position: absolute;
+    top: 25px;
+    left: 140px;
+    line-height: 2.5em;
+    margin-right: 106px;
+}
+
+.strengths-item_size {
+    width: 480px;
+    text-align: center;
+    position: relative;
+    /* background-color: green; */
+}
+
+@supports (display: flex) {
+    .parent-block {
+        /* background-color: aqua; */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    
+    .block-items {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;  
+        -ms-flex-wrap: nowrap;  
+        flex-wrap: nowrap;
+        -webkit-box-align: end;
+        -ms-flex-align: end;
+        align-items: flex-end;          
+        /* background-color: blue; */
+    }
+}
+
+.title_strong-points {
+    top: 50%;
+    left: 30%;
+    transform: translateY(-294px) rotate(-90deg);   
 }
