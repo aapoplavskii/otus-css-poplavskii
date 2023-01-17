@@ -350,6 +350,6 @@ a span {
 
 .title_strong-points {
     top: 50%;
-    left: 50%;
-    transform: translate(-290px, -295px) rotate(-90deg);   
+    left: 32%;
+    transform: translateY(-294px) rotate(-90deg);   
 }
