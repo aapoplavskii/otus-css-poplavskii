@@ -297,11 +297,10 @@ a span {
 .parent-block {
     /* background-color: yellow; */
     height: 100vh;
-    text-align: center;   
     overflow-y: hidden;
     white-space: nowrap;
 }
-.parent-block:before {
+.parent-block::before {
     display:inline-block;
     content: '';
     height:100%;        
